@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+header{
+	width: 100%;
+}
+body{
+	background: #e8caea;
+
+}
+
+.logotipo{
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 3px 0;
+}
+
+.logotipo h1{
+	font-family: 'Bangers', cursive;
+	font-weight: 100;
+	font-size:66px;
+	color: #9c27b0;
+	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-color: #fff;
+}
+.ht{
+	color: #9c27b0;
+	margin: 0;
+	padding: 0;
+	text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff, -2px 2px 0 #ffffff, 2px 2px 0 #ffffff, 1px 1px #ffffff, 2px 2px #ffffff, 3px 3px #ffffff, 4px 4px #ffffff, 5px 5px #ffffff;
+}
+
+.navegacion{
+	width: 100%;
+	background: #9c27b0;
+}
+
+.navegacion nav{
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;	
+}
+/* aqui comiensa en de div*/
+.container{
+		width: 90%;
+		padding: 20px;
+		margin: 100px auto;
+		background: #ddd;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.box{
+		width: 250px;
+		height: 300px;
+		background: orange;
+    margin: 0px 10px;
+    transition: 1s;
+
+	}
+	.box:hover{
+		transform: scale(1.3);
+		background: #ff800a;
+		z-index: 2;
+		box-shadow: 2px 2px 2px #000;
+		
+	}
+/*aqui termina el div*/
+h1 {
+text-align: left; 
+font-family: Comic Sans MS Black; 
+font-weight: bold; 
+font-size: 30px; 
+color: #fff; 
+text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+}
+h2 {
+text-align: left; 
+font-family: Comic Sans MS; 
+font-weight:bold; 
+font-size: 30px; 
+color: #f0dcf3; 
+text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68; 6px 6px #414D68, 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68;
+}
+.aviso{
+color: #fff; 
+text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+border-radius: 31px 31px 31px 31px;
+-moz-border-radius: 31px 31px 31px 31px;
+-webkit-border-radius: 31px 31px 31px 31px;
+box-shadow: 0 0 20px #c413c4;
+padding: 0px;
+margin: 20px;
+}
+.luz {
+color: #1278BF; 
+text-shadow: 0px 0px 9px #508AD3;
+}
+.boton-menu{
+	display: none;
+}
+
+.boton-menu span{
+	color: #fff;
+	font-size: 25px;
+	cursor: pointer;
+	display: block;
+	margin-top: 5px;
+}
+
+.menu{
+	list-style: none;
+	width: 100%;
+}
+
+.menu li{
+	display: inline-block;
+}
+
+.menu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	text-decoration: none;
+	font-family: 'verdana';
+}
+
+.menu li a:hover{
+	background: #B934CF;
+}
+.der{
+	/*float: right;*/
+	width: 30%;
+    height:900px;
+	margin: 5px;
+	margin-left: 15px;
+	padding: 5px;
+    background:red;
+}
+
+.text{
+	background: #b60bc1;
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;  
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-family: 'Comic Sans MS';
+  	font-size: 4px;
+	text-align: justify;
+	padding: 5px;
+}
+.text img{
+    width: 100%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.footer-bottom {
+	background:#9c27b0;
+	padding: 2px 0;
+	color:#fff;	
+	margin-top: 0px;
+}
+.footer-bottom .row {
+	margin-bottom:0px;
+	max-width: 1200px;
+	
+}
+.footer-bottom .footer-left {
+	font-size:13px;
+	padding-top: 2px;
+	width: 70%;
+	margin: auto;
+}
+.footer-bottom .footer-right {
+	text-align:right;
+}
+.dark-mode-button{
+    align:right;
+}
+
+html.dark-mode{
+    filter: invert(100%);
+}
+
+html.dark-mode img{
+    filter: invert(100%);
+}
+
+@media screen and (max-width: 700px){
+	.der{
+      float: none;
+      margin: 5px;
+      width: 100%;
+   		}
+	.boton-menu{
+		width: 90%;
+		margin: auto;
+		display: block;
+		padding: 8px 0;
+	}
+
+	.navegacion nav{
+		position: absolute;
+		left: -100%;
+		width: 250px;
+		height: 100%;
+		background: #393939;
+	}
+
+	.menu li{
+		display: block;
+	}
+}
+/* silder*/
+img{
+    max-width: 100%;
+}
+
+.container-all{
+    position: relative;
+    max-width: 1000px;
+    width: 100%;
+    border-radius: 6px;
+    overflow: hidden;
+    align-items: center;
+    text-align:center; 
+}
+
+.slide{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms;
+    animation-name: autoplay;
+    animation-duration: 6.5s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    margin:0px auto;
+}
+
+.item-slide{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-grow: 0;
+    max-width: 100%;
+}
+
+.pagination{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.pagination-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 0 10px;
+    text-align: center;
+    transition: all 300ms;
+}
+
+.pagination-item:hover{
+    transform: scale(2);
+}
+
+.pagination-item img{
+    display: inline-block;
+    max-width: none;
+    height: 100%;
+    transform: scale(1);
+    opacity: 0;
+    transition: all 300ms;
+}
+
+.pagination-item:hover img{
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+input[id="1"]:checked ~ .slide{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+input[id="1"]:checked ~ .pagination .pagination-item[for="1"]{
+    background: #fff;
+}
+
+input[id="2"]:checked ~ .slide{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+}
+
+input[id="2"]:checked ~ .pagination .pagination-item[for="2"]{
+    background: #fff;
+}
+
+
+input[id="3"]:checked ~ .slide{
+    animation: none;
+    transform: translate3d(calc(-100% * 2), 0, 0);
+}
+
+input[id="3"]:checked ~ .pagination .pagination-item[for="3"]{
+    background: #fff;
+}
+
+
+@keyframes autoplay{
+    33%{
+        transform: translate3d(calc(-100% * 0), 0, 0);
+    }
+    
+    66%{
+        transform: translate3d(calc(-100% * 1), 0, 0);
+    }
+    
+    100%{
+        transform: translate3d(calc(-100% * 2), 0, 0);
+    }
+}
